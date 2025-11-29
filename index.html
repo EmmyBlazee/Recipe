@@ -1,548 +1,339 @@
-<html lang="eng-us">
-     
-    <head>
-        <meta name="description" content="Recipes ">
-        <meta name="viewport" content="width= device-width, initial-scale=1.0">
-        <title>
-Becca Recipes-Home page
-        </title>
-    </head>
-    <style>
-        @media only screen and  (min-width: 1200px){
-            wh{
-                font-size: 20px;
-               
-                padding-bottom: 1000px;
-                width: 85%;
-               
-                line-height: 2px; 
-            }
-        }
-        @media only screen and (min-width: 480px) and (max-width: 767px){
-            .wh{
-                font-size: 20px;
-               margin: 0;
-                padding-bottom: 1000px;
-                width: 85%;
-               
-                line-height: 2px; 
-            }
-            .wh>a{
-               
-                color: black;
-                font-size: 20px;
-            }
-           #meat{
-               margin-left: 8%;
-               font-size: 34px;
-
-           }
-           #pan{
-            font-size: 34px;
-           }
-           #spring{
-            font-size: 34px;
-           }
-           #chin{
-            font-size: 34px;
-           }
-           #fried{
-            font-size: 34px;
-           }
-           #cake{
-               position: relative;
-               left: 7%;
-               font-size: 34px;
-           }
-           
-           #vegetable{
-            font-size: 32px;
-               margin-right: 0;
-           }
-           #jollof{
-             margin-left: 4px;
-             font-size: 34px;
-           }
-           #beans{
-            
-            margin-left: 36px;
-            font-size: 34px;
-
-           }
-           #okra{
-               
-               font-size: 32px;
-           }
-           #puff{
-               position: relative;
-              
-               font-size: 14px;
-           }
-           #ewedu{
-            font-size: 34px;
-           }
-           
-           #tomato{
-            font-size: 11px;
-               
-           }
-          
-
-           
-#controls{
-    float:none;
-}
-
-        }
-        @media only screen and (max-width: 787px){
-            .wh{
-               
-               
-                padding-bottom: 2000px;
-                padding-top: 20px;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Becca Recipes - Discover delicious Nigerian recipes for pastries, rice dishes, stews, soups and drinks">
+    <title>Becca Recipes - Home of Authentic Nigerian Cuisine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="site-header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Becca Recipes</a>
                 
-                margin-right:1000px;
-                line-height: 0px; 
-            }
-            #jollof{
-                margin-left: 30px;
-            }
-            #beans{
-                position :relative;
-                right: 8%;
-            }
-            .wh>a{
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                </ul>
                 
-                margin: 3px;
-                color: black;
-                font-size: 30px;
-               
-            
-            }
-            #meat{
-                position:relative;
-               right: 7%;                
-               font-size: 40px;
-            }
-          
-           
-            
-            #textsection{
-                position:relative;
-                right: 30px;
-                color: skyblue;
-            }
-            #control{
-                position:relative;
-                right: 30px;
-            }
-            #tomato{
-                font-size: 37px ;
-            }
-            #cake{
-                margin: 30%;
-                color: black;
-            }
-            #puff{
-               margin-bottom: 20%;
-               font-size: 40px;
-            }
-           #jollof{
-            position:relative;
-                right: 30px;
-           }
-           #vegetable{
-              
-               font-size: 34px;
-           }
-            #name{
-                padding: 4px;
-                border-radius: 10px;
-
-            }
-           .h{
-                font-size: 30px;
-            
-            }
-        .com{
-            font-size: 10px;
-        }
-#textsection{
-    height: 5%;
-    float:none;
-
-}
-#controls{
-    float:none;
-}
-body{
-    width: 90%;
-}
-
-        } 
-        body{
-            width: 100%;
-        }
-        .wh{
-            margin-top: 30px;
-            background-color: white;
-           
-            height: 2000px;
-            width: 80%;
-            opacity: 0.8;
-       position: relative;
-       left: 10%;
-       font-weight: bolder;
-        }
-        .wh:hover{
-            opacity: 0.9;
-        }
-        .wh>a{
-            margin: 20px;
-            line-height:100px;
-            font-size: 40px;
-            color: white;
-        }
-        .h{
-            color: red;
-            font-size: 50px;
-            text-align: center;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            background-color: black;
-        }
-        .com{
-            font-size: 20px;
-            color: red;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        
-        ul{
-           
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            
-            width: 200px;
-            list-style: none;
-        }
-        li a.active{
-            background-color: red;
-            color: whitesmoke;
-        }
-        li a:hover:not(.active){
-            background-color: red;
-            color: white;
-        }
-        
-       li a{
-        padding: 8px 0 8px 16px;
-        box-sizing: border-box;
-        text-decoration: none;
-        font-size:19px;
-        display:block;
-        color: white;
-        }
-        body{
-            background-image: url("ba(2).jpeg");
-            background-size: cover;
-            
-        }
-        #meat{
-            background-image: url("meatpie.jpeg");
-            background-size: contain;
-            
-            
-            text-decoration: none;
-        }
-        #pan{
-           
-            
-            text-decoration: none;
-            background-image: url("pancakes).jpeg");
-            background-size: 50%;
-            font-weight: 900;
-           
-        }
-        #spring{
-           
-            text-decoration: none;
-           
-            background-image: url("spring.jpeg");
-            background-size: 50%;
-            color: white;
-            font-weight: 900;
-        }
-        #vegetable{
-            position: relative;
-            left: 2%;
-            
-        }
-        #chin{
-            position: relative;
-            left: 2%;
-        }
-        #cake{
-           
-            background-image: url("Cake.jpeg");
-            background-size: 100%;
-            text-decoration: none;
-            font-weight: bolder;
-            font-size: 40px;
-        }
-        #puff{
-           
-            
-            text-decoration: none;
-            background-image: url("puff.jpeg");
-            background-size: 50%;
-           
-            font-weight: bolder;
-        }
-      
-        #string{
-           
-           
-            text-decoration: none;
-            background-image: url("spring.jpeg");
-            background-size: contain;
-            
-            font-weight: 900;
-        }
-        #jollof{
-            
-            
-            text-decoration: none;
-            background-image: url("jollof).jpeg");
-            background-size: contain;
-           
-            font-weight: 900;
-        }
-        #fried{
-            
-           
-            text-decoration: none;
-            background-image: url("fried).jpeg");
-             background-size: contain;
-            
-               font-weight: 900;
-        }
-        #vegetable{
-           
-            background-image: url("vegetable.jpg");
-            text-decoration: none;
-            background-size: contain;
-        }
-        #beans{
-            background-size: contain;
-            background-image: url("beanss.jpeg");
-            text-decoration: none;
-        }
-        #okra{
-            background-image: url("okra.jpeg");
-            text-decoration: none;
-            background-size: contain;
-
-        }
-        #ewedu{
-           
-           
-            text-decoration: none;
-            background-image: url("ewedu1).jpeg");
-            background-size: 50%;
-            
-            font-weight: 900;
-        }
-        #tomato{
-           
-            
-            text-decoration: none;
-            background-image: url("tomato.jpeg");
-            background-size: 50%;
-           
-            font-weight: 900;
-            height: 40px;
-            margin-left: 20px;
-        }
-        
-    #name{
-       
-        padding: 20px;
-        background-color: whitesmoke;
-        border-radius: 20px;
-
-        color:aqua;
-         font-weight: bolder;
-
-    }
-    #name:hover{
-        background-color: black;
-    }
-    #text{
-        
-        padding: 20px;
-        margin-left : 0px;
-        color: aqua;
-        font-weight: bolder;
-    }
-    #text:hover {
-        background-color: black;
-      
-        font-size: 19px;
-    
-    }
-    #textsection{
-        float: right;
-        width: 250px;
-        height: 70%;
-        overflow: scroll;
-
-    }
-    #div{
-        display: none;
-    }
-    #show{
-        font-size: 20px;
-        color: blue;
-        
-    }
-    #another{
-        transform: rotate(45deg);
-    }
-   #control{
-       float: right;
-   }
-   #demo{
-       text-decoration:   underline overline;
-       text-decoration-color: gold;
-       color: red;
-      
-       margin-left: 40px;
-       font-size: 25px;
-   }
-  #post{
-      border: none;
-      background-color: skyblue;
-      padding: 12px;
-  }
-  #names{
-      color: skyblue;
-
-  }
-  #comments{
-      color:  skyblue;
-  }
-  #chin{
-     text-decoration: none;
-      background-image: url("chin\).jpeg");
-
-  }
-  #hide{
-      
-      color: blue;
-      font-size: 18px;
-      
-      text-decoration: none;
-  }
-  #show{
-      text-decoration: none;
-  }
-  #cocconut{
-    text-decoration: none;
-      background-image: url("ricec.jpeg");
-      background-size: contain;
-     font-size: 35px;
-  }
-  #fish{
-    text-decoration: none;
-      background-image: url("fishpepper-soup.jpg");
-      background-size: contain;
-     font-size: 35px;
-  }
-  #iceCream{
-    text-decoration: none;
-      background-image: url("ice.jfif");
-      background-size: contain;
-     font-size: 35px;
-  }
-  
-    </style>
-    <body>
-        <header>
-           
-        
-           <center> <h class="h">BECCA RECIPES <span class="com">.COM</span></h></center>
-          
-           
-            <nav>
-                <a  href="#" id="show"> Main menu <span id="another">  > </span> </a>
-                <div id="div">
-            <ul>
-               <center><a  href="#" id="hide"> > </a></center> 
-          <li>  <a class="active" href="becca cook.html" > Home</a></li>
-          <li>  <a href="contact.html"> Contact</a></li>
-           <li> <a href="about.html"> About </a></li>
-          
-        </ul>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </nav>
         </div>
-        </header>
-        <div class ="wh">
-       <center><h2> Recipes for  </h2></center> 
-    <center>  <p> Pastries  </p></center> 
-        <a href="meatpie.html" id="meat"> Meatpies</a>
-        <a href="pancakes.html" id="pan"> Pancakes</a>
-        <a href="cake.html" id="cake"> Cake </a>
-        <a href="puff.html" id="puff"> Puff-Puff</a>
-        <a href="springrolls.html" id="spring"> Spring rolls</a>
-        <a href="chin-chin.html" id="chin"> Chin Chin</a>
-    <center> <p> Rice </p></center> 
-        <a href="jollofrice.html" id="jollof"> Jollof rice </a>
-        <a href="friedrice.html" id="fried"> Fried rice </a>
-        <a href="coconut-rice.html" id="cocconut"> Cocconut-rice </a>
- 
-    <center>  <p> Stew </p></center> 
-       
-        <a href="beans-soup.html" id="beans"> Beans stew </a>
-        <a href="okra.html" id="okra"> Okra stew </a>
-        <a href="ewedu.html" id="ewedu"> Ewedu stew</a>
-        <a href="tomato.html" id="tomato"> Tomato stew</a>
-        <a href="vegetable.html" id="vegetable"> Vegetable stew </a>
-    <center>   <p> Pepper Soup</p></center> 
-        <a href="fish pepper.html" id="fish"> Fish pepper soup</a>
-        
-    <center> <p> Drinks</p></center>
+    </header>
 
-        <a href="ice cream.html" id="iceCream"> Ice cream</a>
-        
-        
-</div>
-    <script>
-       
-   
-   
-        //var all= document.getElementById("name").value;
-        //var text= document.getElementById("text").value;
-        //var to = all + "<br>" + text;
-      
-        //function post(){
-        
-       //document.getElementById("textsection").innerHTML= to; 
-          
-        //}
-        var display= document.getElementById("div");
-        var show = document.getElementById("show");
-        var hide= document.getElementById("hide");
-        show.addEventListener("click", function(){
-            display.style.display="block";
-            show.style.display="none";
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Becca Recipes</h1>
+            <p class="hero-subtitle">Discover authentic Nigerian cuisine with our collection of delicious, easy-to-follow recipes. From savory stews to delightful pastries, your culinary journey starts here.</p>
+            <div class="hero-cta">
+                <a href="#recipes" class="btn btn-primary">Explore Recipes</a>
+                <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section class="recipes-section" id="recipes">
+        <div class="container">
+            <h2 class="section-title">Our Recipe Collection</h2>
+
+            <!-- Pastries Category -->
+            <div class="recipe-category">
+                <h3 class="category-header">Pastries</h3>
+                <div class="recipe-grid">
+                    <a href="meatpie.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="meatpie.jpeg" alt="Delicious Meatpie">
+                            <span class="recipe-badge">Popular</span>
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Meatpie</h4>
+                            <p class="recipe-description">Savory pastry filled with seasoned minced meat, carrots, and potatoes</p>
+                        </div>
+                    </a>
+
+                    <a href="pancakes.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="pancakes).jpeg" alt="Fluffy Pancakes">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Pancakes</h4>
+                            <p class="recipe-description">Light and fluffy pancakes perfect for breakfast</p>
+                        </div>
+                    </a>
+
+                    <a href="cake.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="Cake.jpeg" alt="Delicious Cake">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Cake</h4>
+                            <p class="recipe-description">Moist and delicious homemade cake for any occasion</p>
+                        </div>
+                    </a>
+
+                    <a href="puff.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="puff.jpeg" alt="Puff-Puff">
+                            <span class="recipe-badge">Favorite</span>
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Puff-Puff</h4>
+                            <p class="recipe-description">Sweet, deep-fried dough balls - a Nigerian favorite</p>
+                        </div>
+                    </a>
+
+                    <a href="springrolls.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="spring.jpeg" alt="Spring Rolls">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Spring Rolls</h4>
+                            <p class="recipe-description">Crispy spring rolls filled with vegetables and seasoned meat</p>
+                        </div>
+                    </a>
+
+                    <a href="chin-chin.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="chin).jpeg" alt="Chin Chin">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Chin Chin</h4>
+                            <p class="recipe-description">Crunchy, sweet fried dough snack perfect for parties</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Rice Category -->
+            <div class="recipe-category">
+                <h3 class="category-header">Rice Dishes</h3>
+                <div class="recipe-grid">
+                    <a href="jollofrice.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="jollof).jpeg" alt="Jollof Rice">
+                            <span class="recipe-badge">Signature</span>
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Jollof Rice</h4>
+                            <p class="recipe-description">The iconic West African one-pot rice dish with rich tomato flavor</p>
+                        </div>
+                    </a>
+
+                    <a href="friedrice.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="fried).jpeg" alt="Fried Rice">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Fried Rice</h4>
+                            <p class="recipe-description">Colorful vegetable rice stir-fried to perfection</p>
+                        </div>
+                    </a>
+
+                    <a href="coconut-rice.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="ricec.jpeg" alt="Coconut Rice">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Coconut Rice</h4>
+                            <p class="recipe-description">Fragrant rice cooked in creamy coconut milk</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Stew Category -->
+            <div class="recipe-category">
+                <h3 class="category-header">Stews & Soups</h3>
+                <div class="recipe-grid">
+                    <a href="beans-soup.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="beanss.jpeg" alt="Beans Stew">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Beans Stew</h4>
+                            <p class="recipe-description">Hearty and nutritious beans cooked in tomato sauce</p>
+                        </div>
+                    </a>
+
+                    <a href="okra.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="okra.jpeg" alt="Okra Stew">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Okra Stew</h4>
+                            <p class="recipe-description">Traditional okra soup with your choice of protein</p>
+                        </div>
+                    </a>
+
+                    <a href="ewedu.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="ewedu1).jpeg" alt="Ewedu Stew">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Ewedu Stew</h4>
+                            <p class="recipe-description">Smooth jute leaves soup - a Yoruba delicacy</p>
+                        </div>
+                    </a>
+
+                    <a href="tomato.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="tomato.jpeg" alt="Tomato Stew">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Tomato Stew</h4>
+                            <p class="recipe-description">Classic Nigerian tomato stew - the foundation of many dishes</p>
+                        </div>
+                    </a>
+
+                    <a href="vegetable.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="vegetable.jpg" alt="Vegetable Stew">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Vegetable Stew</h4>
+                            <p class="recipe-description">Leafy green vegetables in a savory sauce</p>
+                        </div>
+                    </a>
+
+                    <a href="fish pepper.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="fishpepper-soup.jpg" alt="Fish Pepper Soup">
+                            <span class="recipe-badge">Spicy</span>
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Fish Pepper Soup</h4>
+                            <p class="recipe-description">Aromatic and spicy fish soup with traditional spices</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Drinks Category -->
+            <div class="recipe-category">
+                <h3 class="category-header">Drinks & Desserts</h3>
+                <div class="recipe-grid">
+                    <a href="ice cream.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="ice.jfif" alt="Ice Cream">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title">Ice Cream</h4>
+                            <p class="recipe-description">Homemade creamy ice cream in various flavors</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Becca Recipes</h3>
+                    <p>Your destination for authentic Nigerian recipes. Bringing the taste of home to your kitchen.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#pastries">Pastries</a></li>
+                        <li><a href="#rice">Rice Dishes</a></li>
+                        <li><a href="#stews">Stews & Soups</a></li>
+                        <li><a href="#drinks">Drinks</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <p>Share your culinary creations with us!</p>
+                </div>
+            </div>
             
-        }
-        )
-        hide.addEventListener("click", function(){
-            display.style.display="none";
-            show.style.display="block";
-        })
+            <div class="footer-bottom">
+                <p>&copy; 2024 Becca Recipes. All rights reserved. Made with ❤️ for food lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+        
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            mobileToggle.classList.toggle('active');
+        });
+
+        // Header Scroll Effect
+        const header = document.getElementById('header');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth Scroll for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    navMenu.classList.remove('active');
+                    mobileToggle.classList.remove('active');
+                }
+            });
+        });
+
+        // Animate Elements on Scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in-up');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe recipe cards
+        document.querySelectorAll('.recipe-card').forEach(card => {
+            observer.observe(card);
+        });
     </script>
-    </body>
+</body>
 </html>

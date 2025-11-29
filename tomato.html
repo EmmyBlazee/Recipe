@@ -1,203 +1,163 @@
-<html lang="eng-us">
-   
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
-        <meta name="description" content="recipe for tomato soup">
-        <title>
+<!DOCTYPE html>
+<html lang="en">
 
-        </title>
-    </head>
-    <style>
-        @media only screen and (max-width: 767px){
-            body{
-                width: 90%;
-            }
-       
-            #spring{
-          max-width: 100%;
-         height: 400px;
-          width: 100%;
-          position: relative;
-          right: 20%;
-      }
-      h2{
-          font-size: 20px;
-          text-align: center;
-      }
-      .h{
-          font-size: 40px;
-          max-width: 90%;
-      }
-      }
-    
-         .wh{
-            background-color: white;
-           
-           position: relative;
-           left: 10%;
-            height: 100%;
-            width: 80%;
-            opacity: 0.8;
-            margin-top: 10%;
-            padding-bottom: 2000px;
-            
-             
-        }
-        .wh:hover{
-            opacity: 0.9;
-        }
-       
-        .h{
-            color: red;
-            font-size: 50px;
-            text-align: center;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            background-color: black;
-        }
-        .com{
-            font-size: 20px;
-            color: red;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        
-      
-        body{
-            background-image: url("ba(2).jpeg");
-            background-size: cover;
-            width:100%;
-            
-        }
-      .h{
-        color: red;
-        font-size: 50px;
-        text-align: center;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        background-color: black;
-    }
-    .com{
-        font-size: 20px;
-        color: red;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    #head{
-        color: skyblue;
-        font-size: 20px;
-        margin-bottom: 10%;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Recipe for classic Nigerian Tomato Stew - A versatile red stew">
+    <title>Tomato Stew Recipe - Becca Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recipe-detail.css">
+</head>
 
-    }
-    #home{
-        color: skyblue;
-        text-decoration: none;
-    }
-
-    #spring{
-    height:60%;
-    width:60%;
-    position: relative ;
-    left: 20%;
-    
-    max-width: 100%;
-   }
-   h2{
-       text-align: center;
-       margin-bottom: 50px;
-   }
-   .h{
-    margin-bottom: 30px;
-   }
-   body{
-       width: 100%;
-   }
-   .wh{
-       animation-name: change;
-       animation-duration: 1os;
-       animation-delay: 5s;
-   }
-   @keyframes change{
-       from{
-           background-color: aqua;
-       }
-       to{
-           background-color: skyblue;
-       }
-   }
-   
-   #main{
-       margin-left: 20px;
-       
-       width: 65%;
-       max-width: 90%;
-       margin-top: 30px;
-   }
-   #in{
-    text-decoration: underline;
-       font-size: 18px;
-       font-weight: bolder;
-   }
-   h2{
-       color: red;
-       margin: 30px;
-      
-
-   }
-   li{
-    font-size: 20px;
-}
-#recipe{
-    margin-top: 30px;
-}
-</style>
 <body>
-    
-       
-    
-       <center> <h class="h">BECCA RECIPIES<span class="com">.COM</span></h></center>
-    
-    <div class="wh">
-    <p id="head"> <a  id="home" href="becca cook.html">Home </a> > Stew > Tomato Stew</p>
-    <h2 style="color:black"> Recipes for Tomato Stew </h2>
-    <img  id="spring" src="tomato.jpeg" />
-    <div id="main">
-    <p id="in"> Ingredient Required </input></p>
-    <div id="source">
-       
-        <p> Tomato Paste/ Blended Tomato</p>
-       <p> 2 large onions</p>
-       <p> 1 large red bell pepper/tatashe</p>
-    <p>  2 scotch bonnet peppers/atarodo</p>
-<p>   1/2 tablespoon dry thyme</p>
-<p>  2 seasoning cubes, knorr or maggi</p>
-<p>  Salt, to taste</p>
-<p>  1/2 to 1 cup vegetable oil</p>
-<p>  Meat stock (I used the stock from the chicken)</p>
+    <header class="site-header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Becca Recipes</a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                </ul>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
 
-    </div>
-    <h2> Direction of making Tomato Soup</h2>
-    <ul>
-        <li>Wash,chop and blend with a little water the tomatoes, bell pepper or tatashe,  hot peppers, garlic, ginger and 2 onions. 
-            Try blending small quantities at a time so that the mixture blends properly and that you don’t overwork your blender</li>
-        <li>Pour your blended tomato mix into a medium pot and cook </li>
-        <li>Add meat pieces, seasoning cubes, curry, thyme, and some salt</li>
-        <li> Add meat pieces, seasoning cubes, curry, thyme, and some salt</li>
-        <li> Cook at low-medium heat and stir at short intervals till the oil has completely separated from the tomato blend.
-             Taste the stew to make sure that the raw tomato taste is gone then turn off the heat</li>
-    </ul>
-</div>
+    <section class="recipe-hero" style="background-image: url('tomato.jpeg');">
+        <div class="container">
+            <div class="recipe-hero-content">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>›</span>
+                    <span>Stews & Soups</span>
+                    <span>›</span>
+                    <span>Tomato Stew</span>
+                </div>
+                <h1>Classic Tomato Stew</h1>
+            </div>
+        </div>
+    </section>
 
-     </div>
-    
+    <section class="recipe-detail">
+        <div class="container">
+            <div class="recipe-actions">
+                <button onclick="window.print()" class="btn btn-primary btn-icon">
+                    <span>🖨️</span>
+                    <span>Print Recipe</span>
+                </button>
+                <a href="index.html" class="btn btn-secondary btn-icon">
+                    <span>←</span>
+                    <span>Back to Recipes</span>
+                </a>
+            </div>
 
+            <div class="recipe-layout">
+                <aside class="ingredients-card">
+                    <h2>Ingredients</h2>
+                    <ul class="ingredient-list">
+                        <li>Tomato Paste or Fresh Tomatoes</li>
+                        <li>2 Large Onions</li>
+                        <li>1 Large Red Bell Pepper (Tatashe)</li>
+                        <li>2 Scotch Bonnet Peppers (Atarodo)</li>
+                        <li>1/2 tablespoon Dry Thyme</li>
+                        <li>1 teaspoon Curry Powder</li>
+                        <li>2 Seasoning Cubes</li>
+                        <li>Salt to taste</li>
+                        <li>1/2 - 1 cup Vegetable Oil</li>
+                        <li>Meat Stock</li>
+                        <li>Assorted Meat (Chicken, Beef, or Fish)</li>
+                    </ul>
+                </aside>
 
+                <div class="instructions-card">
+                    <h2>Instructions</h2>
+
+                    <div class="instruction-section">
+                        <h3>Preparation</h3>
+                        <ol class="instruction-steps">
+                            <li>Wash, chop, and blend the tomatoes, bell peppers, scotch bonnet peppers, garlic, ginger,
+                                and onions. Blend in small batches for a smooth consistency</li>
+                        </ol>
+                    </div>
+
+                    <div class="instruction-section">
+                        <h3>Cooking the Stew</h3>
+                        <ol class="instruction-steps">
+                            <li>Pour the blended tomato mixture into a pot and cook until the water dries up</li>
+                            <li>Add vegetable oil and fry the tomato paste for a few minutes</li>
+                            <li>Add the meat stock, cooked meat pieces, seasoning cubes, curry, thyme, and salt</li>
+                            <li>Cook on low-medium heat, stirring occasionally, until the oil completely separates from
+                                the tomato blend (about 15-20 minutes)</li>
+                            <li>Taste to ensure the raw tomato flavor is gone, then turn off the heat</li>
+                            <li>Serve with Rice, Yam, or Bread</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Becca Recipes</h3>
+                    <p>Your destination for authentic Nigerian recipes. Bringing the taste of home to your kitchen.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#pastries">Pastries</a></li>
+                        <li><a href="index.html#rice">Rice Dishes</a></li>
+                        <li><a href="index.html#stews">Stews & Soups</a></li>
+                        <li><a href="index.html#drinks">Drinks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <p>Share your culinary creations with us!</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Becca Recipes. All rights reserved. Made with ❤️ for food lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        if (mobileToggle && navMenu) {
+            mobileToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                mobileToggle.classList.toggle('active');
+            });
+        }
+
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
-<script>
-   document.getElementById("in").style.fontFamily="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
-document.getElementById("in").style.color="red";
-document.getElementById("in").style.fontSize="30px";
-document.getElementById("in").style.marginLeft="60px";
-document.getElementById("source").style.marginLeft="60px";
 
-    
-</script>
 </html>

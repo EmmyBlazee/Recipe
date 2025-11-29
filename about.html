@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Becca Recipes - Learn about our passion for authentic Nigerian cuisine">
+    <title>About Us - Becca Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-hero {
+            background: var(--hero-gradient);
+            padding: var(--space-3xl) 0;
+            margin-top: 76px;
+            text-align: center;
+            color: var(--color-white);
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .about-hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            margin-bottom: var(--space-md);
+            color: var(--color-white);
+        }
+
+        .about-hero p {
+            font-size: var(--text-xl);
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .about-content {
+            padding: var(--space-3xl) 0;
+            background: var(--color-light);
+        }
+
+        .about-section {
+            margin-bottom: var(--space-3xl);
+        }
+
+        .about-section h2 {
+            text-align: center;
+            margin-bottom: var(--space-xl);
+            position: relative;
+        }
+
+        .about-section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: var(--primary-gradient);
+            border-radius: var(--radius-full);
+        }
+
+        .story-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--color-white);
+            padding: var(--space-xl);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-md);
+            line-height: 1.8;
+        }
+
+        .story-content p {
+            margin-bottom: var(--space-md);
+            color: var(--text-secondary);
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-xl);
+            margin-top: var(--space-2xl);
+        }
+
+        .value-card {
+            background: var(--color-white);
+            padding: var(--space-xl);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-md);
+            text-align: center;
+            transition: all var(--transition-base);
+        }
+
+        .value-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-2xl);
+        }
+
+        .value-icon {
+            font-size: 3rem;
+            margin-bottom: var(--space-md);
+        }
+
+        .value-card h3 {
+            font-size: var(--text-xl);
+            margin-bottom: var(--space-sm);
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .value-card p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--space-lg);
+            margin-top: var(--space-2xl);
+        }
+
+        .feature-item {
+            display: flex;
+            gap: var(--space-md);
+            background: var(--color-white);
+            padding: var(--space-lg);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-base);
+        }
+
+        .feature-item:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateX(10px);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+
+        .feature-content h4 {
+            font-size: var(--text-lg);
+            margin-bottom: var(--space-xs);
+            color: var(--text-primary);
+        }
+
+        .feature-content p {
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Becca Recipes</a>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                </ul>
+
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-hero">
+        <div class="container">
+            <h1>About Becca Recipes</h1>
+            <p>Celebrating the rich flavors and traditions of Nigerian cuisine, one recipe at a time.</p>
+        </div>
+    </section>
+
+    <section class="about-content">
+        <div class="container">
+            <!-- Our Story -->
+            <div class="about-section">
+                <h2>Our Story</h2>
+                <div class="story-content">
+                    <p>
+                        Welcome to Becca Recipes, your trusted companion on a delicious journey through authentic
+                        Nigerian cuisine.
+                        We started with a simple mission: to preserve and share the incredible flavors, techniques, and
+                        traditions
+                        that make Nigerian food so special.
+                    </p>
+                    <p>
+                        Growing up surrounded by the aromas of jollof rice, the sizzle of puff-puff in hot oil, and the
+                        warmth
+                        of family gatherings centered around food, we developed a deep appreciation for the culinary
+                        heritage
+                        passed down through generations. Each recipe tells a story, carries a memory, and connects us to
+                        our roots.
+                    </p>
+                    <p>
+                        At Becca Recipes, we believe that cooking is more than following instructions—it's about love,
+                        creativity, and bringing people together. Whether you're a seasoned cook or just starting your
+                        culinary adventure, we're here to guide you through each step with clear instructions and
+                        helpful tips.
+                    </p>
+                    <p>
+                        From traditional staples to modern twists on classic dishes, our collection celebrates the
+                        diversity
+                        and richness of Nigerian cuisine. We're constantly adding new recipes and techniques to help you
+                        bring the taste of home to your kitchen, no matter where you are in the world.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Our Values -->
+            <div class="about-section">
+                <h2>Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">🌟</div>
+                        <h3>Authenticity</h3>
+                        <p>We honor traditional recipes while embracing modern cooking techniques, ensuring every dish
+                            stays true to its roots.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-icon">❤️</div>
+                        <h3>Passion</h3>
+                        <p>Our love for Nigerian cuisine drives everything we do, from recipe testing to sharing cooking
+                            tips with our community.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-icon">👥</div>
+                        <h3>Community</h3>
+                        <p>We believe food brings people together. Join our growing community of home cooks sharing
+                            their culinary experiences.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-icon">📚</div>
+                        <h3>Education</h3>
+                        <p>We're committed to teaching and preserving culinary traditions for future generations through
+                            detailed, easy-to-follow recipes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- What We Offer -->
+            <div class="about-section">
+                <h2>What We Offer</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">📖</div>
+                        <div class="feature-content">
+                            <h4>Detailed Recipes</h4>
+                            <p>Step-by-step instructions with ingredient lists to make cooking Nigerian dishes
+                                accessible to everyone.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">🍳</div>
+                        <div class="feature-content">
+                            <h4>Cooking Tips</h4>
+                            <p>Expert advice and techniques to help you master traditional and modern Nigerian cooking
+                                methods.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">🌶️</div>
+                        <div class="feature-content">
+                            <h4>Diverse Categories</h4>
+                            <p>From pastries to rice dishes, stews to drinks—explore the full spectrum of Nigerian
+                                cuisine.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">📱</div>
+                        <div class="feature-content">
+                            <h4>Mobile Friendly</h4>
+                            <p>Access recipes on any device, whether you're in the kitchen or planning your next meal.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">🖨️</div>
+                        <div class="feature-content">
+                            <h4>Print Recipes</h4>
+                            <p>Easily print your favorite recipes for your personal cookbook or to share with family and
+                                friends.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">💬</div>
+                        <div class="feature-content">
+                            <h4>Community Support</h4>
+                            <p>Connect with us and fellow food lovers to share tips, variations, and your cooking
+                                experiences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="about-section" style="text-align: center;">
+                <h2>Join Our Culinary Journey</h2>
+                <p style="max-width: 700px; margin: var(--space-lg) auto; color: var(--text-secondary);">
+                    Whether you're craving jollof rice, want to perfect your meatpie, or explore new Nigerian dishes,
+                    we're here to help you every step of the way. Let's cook together!
+                </p>
+                <div
+                    style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap; margin-top: var(--space-xl);">
+                    <a href="index.html" class="btn btn-primary">Browse Recipes</a>
+                    <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Becca Recipes</h3>
+                    <p>Your destination for authentic Nigerian recipes. Bringing the taste of home to your kitchen.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#pastries">Pastries</a></li>
+                        <li><a href="index.html#rice">Rice Dishes</a></li>
+                        <li><a href="index.html#stews">Stews & Soups</a></li>
+                        <li><a href="index.html#drinks">Drinks</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <p>Share your culinary creations with us!</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Becca Recipes. All rights reserved. Made with ❤️ for food lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        if (mobileToggle && navMenu) {
+            mobileToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                mobileToggle.classList.toggle('active');
+            });
+        }
+
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>

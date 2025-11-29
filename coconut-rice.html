@@ -1,199 +1,172 @@
-<html lang="eng-us">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta name="keyword" content="width= device-width, initial-scale= 1.0">
-        <meta name="description" content="recipe for coconut rice">
-        <title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Recipe for delicious Coconut Rice - Learn how to make fragrant rice cooked in creamy coconut milk">
+    <title>Coconut Rice Recipe - Becca Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recipe-detail.css">
+</head>
 
-        </title>
-    </head>
-    <style>
-        @media only screen and (max-width: 767px){
-            body{
-                width: 90%;
-            }
-       
-            #spring{
-          max-width: 100%;
-         height: 400px;
-          width: 100%;
-          position: relative;
-          right: 20%;
-      }
-      h2{
-          font-size: 20px;
-          text-align: center;
-      }
-      .h{
-          font-size: 40px;
-          max-width: 90%;
-      }
-      }
-    
-         .wh{
-            background-color: white;
-           
-           position: relative;
-           left: 10%;
-            height: 100%;
-            width: 80%;
-            opacity: 0.8;
-            margin-top: 10%;
-            padding-bottom: 2000px;
-            
-             
-        }
-        .wh:hover{
-            opacity: 0.9;
-        }
-       
-        .h{
-            color: red;
-            font-size: 50px;
-            text-align: center;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            background-color: black;
-        }
-        .com{
-            font-size: 20px;
-            color: red;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        
-      
-        body{
-            background-image: url("ba(2).jpeg");
-            background-size: cover;
-            width:100%;
-            
-        }
-      .h{
-        color: red;
-        font-size: 50px;
-        text-align: center;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        background-color: black;
-    }
-    .com{
-        font-size: 20px;
-        color: red;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    #head{
-        color: skyblue;
-        font-size: 20px;
-        margin-bottom: 10%;
-
-    }
-    #home{
-        color: skyblue;
-        text-decoration: none;
-    }
-
-    #spring{
-    height:60%;
-    width:60%;
-    position: relative ;
-    left: 20%;
-    
-    max-width: 100%;
-   }
-   h2{
-       text-align: center;
-       margin-bottom: 50px;
-   }
-   .h{
-    margin-bottom: 30px;
-   }
-   body{
-       width: 100%;
-   }
-   .wh{
-       animation-name: change;
-       animation-duration: 1os;
-       animation-delay: 5s;
-   }
-   @keyframes change{
-       from{
-           background-color: aqua;
-       }
-       to{
-           background-color: skyblue;
-       }
-   }
-   #main{
-       margin-left: 20px;
-       
-       width: 65%;
-       max-width: 90%;
-       margin-top: 30px;
-   }
-   #in{
-    text-decoration: underline;
-       font-size: 18px;
-       font-weight: bolder;
-   }
-   h2{
-       color: red;
-       margin: 30px;
-      
-
-   }
-   li{
-    font-size: 20px;
-}
-#recipe{
-    margin-top: 30px;
-}
-</style>
 <body>
-    
-       
-    
-       <center> <h class="h">BECCA RECIPIES<span class="com">.COM</span></h></center>
-    
-    <div class="wh">
-    <p id="head"> <a  id="home" href="becca cook.html">Home > </a> Rice > Coconut-Rice</p>
-    <h2 style="color:black">  Recipes for Coconut-Rice </h2>
-    <img  id="spring" src="ricec.jpeg" />
-    <div id="main">
-    <p id="in"> Ingredient Required </input></p>
-    <div id="source">
-        <p>1/2 teaspoon coconut oil (or vegetable oil)</p>
-    </p>2 cups Thai jasmine white rice, rinsed well</p>
-</p>1/2 cup of canned coconut milk</p>
-</p> 1/2 teaspoon salt</p>
-</p>1 3/4 cups water</p>
+    <!-- Header & Navigation -->
+    <header class="site-header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Becca Recipes</a>
 
-    </div>
- <h2> Direction for making Coconut-Rice</h2>
- <ul>
-    <li>Rub the oil over the bottom of a deep-sided pot.</li>
-    <li>Place the rice in the pot along with the coconut milk, salt, and water.
-         Set over medium-high to high heat and bring to a boil. Stir occasionally to keep rice from sticking to the bottom of the pot.</li>
-    <li>Once the liquid has begun to gently bubble, stop stirring, and reduce the heat to low, achieving a constant simmer.</li>
-    <li>Cover tightly with a lid and let simmer 15 to 20 minutes, or until most of the liquid has been absorbed by the rice.</li>
-    <li>Check doneness by pulling the rice aside with a fork. 
-        If there is still a good amount of liquid left, steam for a few minutes longer. If the liquid is gone, turn off the heat.</li>
-    <li>With the heat off, leave the covered pot on the hot burner for another 5 to 10 minutes, or until you're ready to eat.</li>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                </ul>
 
- </ul>
-</div>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        }
+    </header>
 
-     </div>
-    
+    <!-- Recipe Hero -->
+    <section class="recipe-hero" style="background-image: url('ricec.jpeg');">
+        <div class="container">
+            <div class="recipe-hero-content">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>›</span>
+                    <span>Rice Dishes</span>
+                    <span>›</span>
+                    <span>Coconut Rice</span>
+                </div>
+                <h1>Coconut Rice</h1>
+            </div>
+        </div>
+    </section>
 
+    <!-- Recipe Content -->
+    <section class="recipe-detail">
+        <div class="container">
+            <!-- Action Buttons -->
+            <div class="recipe-actions">
+                <button onclick="window.print()" class="btn btn-primary btn-icon">
+                    <span>🖨️</span>
+                    <span>Print Recipe</span>
+                </button>
+                <a href="index.html" class="btn btn-secondary btn-icon">
+                    <span>←</span>
+                    <span>Back to Recipes</span>
+                </a>
+            </div>
 
+            <!-- Recipe Layout -->
+            <div class="recipe-layout">
+                <!-- Ingredients Sidebar -->
+                <aside class="ingredients-card">
+                    <h2>Ingredients</h2>
+                    <ul class="ingredient-list">
+                        <li>1/2 teaspoon coconut oil (or vegetable oil)</li>
+                        <li>2 cups Thai jasmine white rice, rinsed well</li>
+                        <li>1/2 cup of canned coconut milk</li>
+                        <li>1/2 teaspoon salt</li>
+                        <li>1 3/4 cups water</li>
+                    </ul>
+                </aside>
+
+                <!-- Instructions -->
+                <div class="instructions-card">
+                    <h2>Instructions</h2>
+
+                    <div class="instruction-section">
+                        <h3>Making Coconut Rice</h3>
+                        <ol class="instruction-steps">
+                            <li>Rub the oil over the bottom of a deep-sided pot.</li>
+                            <li>Place the rinsed rice in the pot along with the coconut milk, salt, and water. Set over
+                                medium-high heat and bring to a boil, stirring occasionally to prevent sticking.</li>
+                            <li>Once the liquid begins to bubble gently, stop stirring and reduce the heat to low to
+                                maintain a constant simmer.</li>
+                            <li>Cover the pot tightly with a lid and let it simmer for 15 to 20 minutes, or until most
+                                of the liquid has been absorbed by the rice.</li>
+                            <li>Check for doneness by pulling the rice aside with a fork. If a good amount of liquid
+                                remains, let it steam for a few more minutes. If the liquid is gone, turn off the heat.
+                            </li>
+                            <li>With the heat off, leave the covered pot on the hot burner for another 5 to 10 minutes
+                                to allow it to steam perfectly before serving.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Becca Recipes</h3>
+                    <p>Your destination for authentic Nigerian recipes. Bringing the taste of home to your kitchen.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#pastries">Pastries</a></li>
+                        <li><a href="index.html#rice">Rice Dishes</a></li>
+                        <li><a href="index.html#stews">Stews & Soups</a></li>
+                        <li><a href="index.html#drinks">Drinks</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <p>Share your culinary creations with us!</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Becca Recipes. All rights reserved. Made with ❤️ for food lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        if (mobileToggle && navMenu) {
+            mobileToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                mobileToggle.classList.toggle('active');
+            });
+        }
+
+        // Header Scroll Effect
+        const header = document.getElementById('header');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
-<script>
-     document.getElementById("in").style.fontFamily="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
-document.getElementById("in").style.color="red";
-document.getElementById("in").style.fontSize="30px";
-document.getElementById("in").style.marginLeft="60px";
-document.getElementById("source").style.marginLeft="60px";
-
-    
-</script>
 </html>

@@ -1,199 +1,160 @@
-<html lang="eng-us">
-   
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
-        <meta name="description" content="recipe for jollof rice">
-        <title>
+<!DOCTYPE html>
+<html lang="en">
 
-        </title>
-    </head>
-    <style>
-        @media only screen and (max-width: 767px){
-            body{
-                width: 90%;
-            }
-       
-            #spring{
-          max-width: 100%;
-         height: 400px;
-          width: 100%;
-          position: relative;
-          right: 20%;
-      }
-      h2{
-          font-size: 20px;
-          text-align: center;
-      }
-      .h{
-          font-size: 40px;
-          max-width: 90%;
-      }
-      }
-    
-         .wh{
-            background-color: white;
-           
-           position: relative;
-           left: 10%;
-            height: 100%;
-            width: 80%;
-            opacity: 0.8;
-            margin-top: 10%;
-            padding-bottom: 2000px;
-            
-             
-        }
-        .wh:hover{
-            opacity: 0.9;
-        }
-       
-        .h{
-            color: red;
-            font-size: 50px;
-            text-align: center;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            background-color: black;
-        }
-        .com{
-            font-size: 20px;
-            color: red;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        
-      
-        body{
-            background-image: url("ba(2).jpeg");
-            background-size: cover;
-            width:100%;
-            
-        }
-      .h{
-        color: red;
-        font-size: 50px;
-        text-align: center;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        background-color: black;
-    }
-    .com{
-        font-size: 20px;
-        color: red;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    #head{
-        color: skyblue;
-        font-size: 20px;
-        margin-bottom: 10%;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Recipe for homemade creamy Ice Cream - A delightful frozen treat">
+    <title>Ice Cream Recipe - Becca Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recipe-detail.css">
+</head>
 
-    }
-    #home{
-        color: skyblue;
-        text-decoration: none;
-    }
-
-    #spring{
-    height:60%;
-    width:60%;
-    position: relative ;
-    left: 20%;
-    
-    max-width: 100%;
-   }
-   h2{
-       text-align: center;
-       margin-bottom: 50px;
-   }
-   .h{
-    margin-bottom: 30px;
-   }
-   body{
-       width: 100%;
-   }
-   .wh{
-       animation-name: change;
-       animation-duration: 1os;
-       animation-delay: 5s;
-   }
-   @keyframes change{
-       from{
-           background-color: aqua;
-       }
-       to{
-           background-color: skyblue;
-       }
-   }
-   
-   #main{
-       margin-left: 20px;
-       
-       width: 65%;
-       max-width: 90%;
-       margin-top: 30px;
-   }
-   #in{
-    text-decoration: underline;
-       font-size: 18px;
-       font-weight: bolder;
-   }
-   h2{
-       color: red;
-       margin: 30px;
-      
-
-   }
-   li{
-    font-size: 20px;
-}
-#recipe{
-    margin-top: 30px;
-}
-</style>
 <body>
-    
-       
-    
-       <center> <h class="h">BECCA RECIPIES<span class="com">.COM</span></h></center>
-    
-    <div class="wh">
-    <p id="head"> <a  id="home" href="becca cook.html">Home </a> > Drinks > Ice Cream</p>
-    <h2 style="color:black">  Recipes for Ice cream </h2>
-    <img  id="spring" src="ice.jfif" />
-    <div id="main">
-    <p id="in"> Ingredient Required </input></p>
-    <div id="source">
-        <p> Condensed milk (1 ton)</p>
-        <P> Heavy whip Cream (1 cup)</P>
-        <p> Vanilla extrsct (2 teaspoons vanila extract)</p>
-        <p> 3/4 cup white sugar</p>
-        <p> Egg yolks (6 large)</p>
-    
+    <header class="site-header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Becca Recipes</a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                </ul>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
 
-    </div>
-    <h2> Direction Ice cream preparation</h2>
-    <ul>
-        <li> Stir milk, sugar and cream altogether in a pan over low heat until sugar completely dissolves about 5 minutes; remove pan from pan </li>
-        <li>In a seperate bowl, whisk yolks. whisking constantly, slowly whisk about  third of the hot cream into the yolks, then whisk the yolk mixture back into the pot with the 
-            cream. Return pan to medium low heat and gently cook until mixture is thick enough to coat the back of a spoon ( about 170 degrees on an instant read thermonmeter)
-        </li>
-        <li> strain through a fine-mesh sieve into a bowl cool mixture to room temperature cover and chill at least 4 hours or  overnight,  store the ice cream in frezer until needed.</li>
-    </ul>
+    <section class="recipe-hero" style="background-image: url('ice.jfif');">
+        <div class="container">
+            <div class="recipe-hero-content">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>›</span>
+                    <span>Drinks & Desserts</span>
+                    <span>›</span>
+                    <span>Ice Cream</span>
+                </div>
+                <h1>Homemade Ice Cream</h1>
+            </div>
+        </div>
+    </section>
 
-   
-</div>
+    <section class="recipe-detail">
+        <div class="container">
+            <div class="recipe-actions">
+                <button onclick="window.print()" class="btn btn-primary btn-icon">
+                    <span>🖨️</span>
+                    <span>Print Recipe</span>
+                </button>
+                <a href="index.html" class="btn btn-secondary btn-icon">
+                    <span>←</span>
+                    <span>Back to Recipes</span>
+                </a>
+            </div>
 
-     </div>
-    
+            <div class="recipe-layout">
+                <aside class="ingredients-card">
+                    <h2>Ingredients</h2>
+                    <ul class="ingredient-list">
+                        <li>1 tin Condensed Milk</li>
+                        <li>1 cup Heavy Whipping Cream</li>
+                        <li>2 teaspoons Vanilla Extract</li>
+                        <li>3/4 cup White Sugar</li>
+                        <li>6 large Egg Yolks</li>
+                    </ul>
+                </aside>
 
+                <div class="instructions-card">
+                    <h2>Instructions</h2>
 
+                    <div class="instruction-section">
+                        <h3>Preparing the Custard Base</h3>
+                        <ol class="instruction-steps">
+                            <li>Stir milk, sugar, and cream together in a pan over low heat until sugar completely
+                                dissolves (about 5 minutes). Remove pan from heat</li>
+                            <li>In a separate bowl, whisk the egg yolks</li>
+                            <li>Whisking constantly, slowly pour about a third of the hot cream mixture into the yolks
+                                (tempering)</li>
+                            <li>Whisk the yolk mixture back into the pot with the remaining cream</li>
+                        </ol>
+                    </div>
+
+                    <div class="instruction-section">
+                        <h3>Cooking and Chilling</h3>
+                        <ol class="instruction-steps">
+                            <li>Return pan to medium-low heat and gently cook, stirring constantly, until mixture is
+                                thick enough to coat the back of a spoon (about 170°F)</li>
+                            <li>Strain through a fine-mesh sieve into a bowl</li>
+                            <li>Cool mixture to room temperature, then cover and chill for at least 4 hours or overnight
+                            </li>
+                            <li>Store the ice cream in the freezer until needed</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Becca Recipes</h3>
+                    <p>Your destination for authentic Nigerian recipes. Bringing the taste of home to your kitchen.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#pastries">Pastries</a></li>
+                        <li><a href="index.html#rice">Rice Dishes</a></li>
+                        <li><a href="index.html#stews">Stews & Soups</a></li>
+                        <li><a href="index.html#drinks">Drinks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <p>Share your culinary creations with us!</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Becca Recipes. All rights reserved. Made with ❤️ for food lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        if (mobileToggle && navMenu) {
+            mobileToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                mobileToggle.classList.toggle('active');
+            });
+        }
+
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
-<script>
-   document.getElementById("in").style.fontFamily="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
-document.getElementById("in").style.color="red";
-document.getElementById("in").style.fontSize="30px";
-document.getElementById("in").style.marginLeft="60px";
-document.getElementById("source").style.marginLeft="60px";
 
-    
-</script>
 </html>

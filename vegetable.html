@@ -1,205 +1,167 @@
-<html lang="eng-us">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
-        <meta name="description" content="recipe for vegetable soup">
-        <title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Recipe for nutritious Vegetable Soup (Edikang Ikong style) - A rich Nigerian vegetable soup">
+    <title>Vegetable Soup Recipe - Becca Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recipe-detail.css">
+</head>
 
-        </title>
-    </head>
-    <style>
-        @media only screen and (max-width: 767px){
-            body{
-                width: 90%;
-            }
-       
-            #spring{
-          max-width: 100%;
-         height: 400px;
-          width: 100%;
-          position: relative;
-          right: 20%;
-      }
-      h2{
-          font-size: 20px;
-          text-align: center;
-      }
-      .h{
-          font-size: 40px;
-          max-width: 90%;
-      }
-      }
-    
-         .wh{
-            background-color: white;
-           
-           position: relative;
-           left: 10%;
-            height: 100%;
-            width: 80%;
-            opacity: 0.8;
-            margin-top: 10%;
-            padding-bottom: 2000px;
-            
-             
-        }
-        .wh:hover{
-            opacity: 0.9;
-        }
-       
-        .h{
-            color: red;
-            font-size: 50px;
-            text-align: center;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            background-color: black;
-        }
-        .com{
-            font-size: 20px;
-            color: red;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        
-      
-        body{
-            background-image: url("ba(2).jpeg");
-            background-size: cover;
-            width:100%;
-            
-        }
-      .h{
-        color: red;
-        font-size: 50px;
-        text-align: center;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        background-color: black;
-    }
-    .com{
-        font-size: 20px;
-        color: red;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    #head{
-        color: skyblue;
-        font-size: 20px;
-        margin-bottom: 10%;
-
-    }
-    #home{
-        color: skyblue;
-        text-decoration: none;
-    }
-
-    #spring{
-    height:60%;
-    width:60%;
-    position: relative ;
-    left: 20%;
-    
-    max-width: 100%;
-   }
-   h2{
-       text-align: center;
-       margin-bottom: 50px;
-   }
-   .h{
-    margin-bottom: 30px;
-   }
-   body{
-       width: 100%;
-   }
-   .wh{
-       animation-name: change;
-       animation-duration: 1os;
-       animation-delay: 5s;
-   }
-   @keyframes change{
-       from{
-           background-color: aqua;
-       }
-       to{
-           background-color: skyblue;
-       }
-   }
-   
-   #main{
-       margin-left: 20px;
-       
-       width: 65%;
-       max-width: 90%;
-       margin-top: 30px;
-   }
-   #in{
-    text-decoration: underline;
-       font-size: 18px;
-       font-weight: bolder;
-   }
-   h2{
-       color: red;
-       margin: 30px;
-      
-
-   }
-   li{
-    font-size: 20px;
-}
-#recipe{
-    margin-top: 30px;
-}
-</style>
 <body>
-    
-       
-    
-       <center> <h class="h">BECCA RECIPIES<span class="com">.COM</span></h></center>
-    
-    <div class="wh">
-    <p id="head"> <a  id="home" href="becca cook.html">Home > </a> Soup > Vegetable-Soup</p>
-    <h2 style="color:black"> Recipes for Vegetable-Soup </h2>
-    <img  id="spring" src="vegetable.jpg" />
-    <div id="main">
-    <p id="in"> Ingredient Required </input></p>
-    <div id="source">
-       <p> 1 and 1/2 cups palm oil</p>
-    <p> 1 and 1/2 cups vegetable oil</p>
-<p>     One medium sized onion</p>
-<p> 5 large sized tomatoes</p>
-<p> 1 teaspoon pepper, you can add more</p>
-<p> 1 medium sized bunch ugu vegetables (Fluted pumpkin)</p>
-<p> 3 large sized bunch water leaf</p>
-<p> 1 cup ground crayfish</p>
-<p> 2 seasoning cubes</p>
-<p> salt to taste</p>
-<p> No water. The soup is cooked with juices from vegetables.</p>
-<p>  2 kg goat meat (Roasted)</p>
+    <header class="site-header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Becca Recipes</a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                </ul>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
 
+    <section class="recipe-hero" style="background-image: url('vegetable.jpg');">
+        <div class="container">
+            <div class="recipe-hero-content">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>›</span>
+                    <span>Stews & Soups</span>
+                    <span>›</span>
+                    <span>Vegetable Soup</span>
+                </div>
+                <h1>Vegetable Soup</h1>
+            </div>
+        </div>
+    </section>
 
-    </div>
-    <h2> Direction for making Vegetable Soup</h2>
-    <ul>
-        <li>Stir fry the onion and chopped tomatoes in hot oil with pepper and one seasoning cube. Stir till onion is translucent. 
-            My tomatoes are frozen, so, the skin came off easily. You can pour boiling water on tomatoes or freeze to remove skin before chopping.</li>
-        <li> Add washed vegetables, stir very well, cover and leave for about a minute before adding crayfish and the remaining seasoning cube. 
-            Note that you may also fry the crayfish with the onion and tomatoes o. cover to cook for at least half a minute.</li>
-        <li> Stir, check for taste and salt before turning off the heat.
-            Soup can be served with fufu, tuwo, eba, semo, amala, rice, plantain,</li>
-    </ul>
+    <section class="recipe-detail">
+        <div class="container">
+            <div class="recipe-actions">
+                <button onclick="window.print()" class="btn btn-primary btn-icon">
+                    <span>🖨️</span>
+                    <span>Print Recipe</span>
+                </button>
+                <a href="index.html" class="btn btn-secondary btn-icon">
+                    <span>←</span>
+                    <span>Back to Recipes</span>
+                </a>
+            </div>
 
-</div>
+            <div class="recipe-layout">
+                <aside class="ingredients-card">
+                    <h2>Ingredients</h2>
+                    <ul class="ingredient-list">
+                        <li>1 bunch Ugu (Fluted Pumpkin) leaves</li>
+                        <li>3 bunches Waterleaf</li>
+                        <li>2kg Goat Meat (Roasted/Smoked preferred)</li>
+                        <li>1 cup Ground Crayfish</li>
+                        <li>1.5 cups Palm Oil</li>
+                        <li>1 Medium Onion</li>
+                        <li>5 Large Tomatoes</li>
+                        <li>1 teaspoon Pepper (or to taste)</li>
+                        <li>2 Seasoning Cubes</li>
+                        <li>Salt to taste</li>
+                    </ul>
+                </aside>
 
-     </div>
-    
+                <div class="instructions-card">
+                    <h2>Instructions</h2>
 
+                    <div class="instruction-section">
+                        <h3>Preparation</h3>
+                        <ol class="instruction-steps">
+                            <li>Wash and chop the vegetables (Ugu and Waterleaf) separately. Set aside</li>
+                            <li>Wash and prepare the goat meat</li>
+                        </ol>
+                    </div>
 
+                    <div class="instruction-section">
+                        <h3>Cooking</h3>
+                        <ol class="instruction-steps">
+                            <li>Heat the palm oil in a pot. Add chopped onions and tomatoes. Stir-fry until onions are
+                                translucent</li>
+                            <li>Add the goat meat, pepper, and seasoning cubes. Cook for a few minutes to let flavors
+                                absorb</li>
+                            <li>Add the washed waterleaf first, stir well, and cook for about 2-3 minutes until it wilts
+                            </li>
+                            <li>Add the Ugu leaves and ground crayfish. Stir thoroughly to combine</li>
+                            <li>Cover and simmer for just 1-2 minutes. Do not overcook the vegetables to retain
+                                nutrients</li>
+                            <li>Taste for salt and adjust if necessary. Turn off the heat</li>
+                            <li>Serve hot with Fufu, Eba, Pounded Yam, or Rice</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Becca Recipes</h3>
+                    <p>Your destination for authentic Nigerian recipes. Bringing the taste of home to your kitchen.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#pastries">Pastries</a></li>
+                        <li><a href="index.html#rice">Rice Dishes</a></li>
+                        <li><a href="index.html#stews">Stews & Soups</a></li>
+                        <li><a href="index.html#drinks">Drinks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <p>Share your culinary creations with us!</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Becca Recipes. All rights reserved. Made with ❤️ for food lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        if (mobileToggle && navMenu) {
+            mobileToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                mobileToggle.classList.toggle('active');
+            });
+        }
+
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
-<script>
-  document.getElementById("in").style.fontFamily="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
-document.getElementById("in").style.color="red";
-document.getElementById("in").style.fontSize="30px";
-document.getElementById("in").style.marginLeft="60px";
-document.getElementById("source").style.marginLeft="60px";
 
-</script>
 </html>
